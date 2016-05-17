@@ -1,8 +1,10 @@
 # css3BatteryCharging
 css3实现电池充电效果
 
+[Demo -- 演示页面](http://unclehking.github.io/css3BatteryCharging/)
+
 css:
-'''java
+```java  
 .battery{margin: 50px auto;width:200px;height: 96px;border: solid #4a4a4a 10px;border-radius: 10px;position: relative;transform:rotate(-90deg);}
 .battery.horizon{transform:rotate(0deg);}
 .battery svg{position: relative;top: -30%;left: 10%;fill: #4a4a4a;transform:rotate(90deg);width: 80%;}
@@ -13,10 +15,10 @@ css:
     30%{background-color: #ffa200;}
     100%{background-color: #00ff00;width: 100%;}
 }
-'''
+```
 
 html:
-'''java
+```java  
 <div class="battery horizon">
   <svg version="1.1" x="0px" y="0px"  viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
       <g>
@@ -24,4 +26,4 @@ html:
       </g>
   </svg>
 </div>
-'''
+```
