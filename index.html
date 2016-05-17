@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>battery charging -- by HKing </title>
+        <style media="screen">
+            .battery{margin: 50px auto;width:200px;height: 96px;border: solid #4a4a4a 10px;border-radius: 10px;position: relative;transform:rotate(-90deg);}
+            .battery.horizon{transform:rotate(0deg);}
+            .battery svg{position: relative;top: -30%;left: 10%;fill: #4a4a4a;transform:rotate(90deg);width: 80%;}
+            .battery:after{display: block;content: " ";width: 24px;height: 50%;background-color: #4a4a4a;position: absolute;right: -24px;top: 25%;border-radius: 0 4px 4px 0;}
+            .battery:before{display: block;content: " ";width: 0%;height: 100%;background-color: #ff0000;position: absolute;animation: charging 3s infinite;}
+            @keyframes charging{
+                0%{background-color: #ff0000;}
+                30%{background-color: #ffa200;}
+                100%{background-color: #00ff00;width: 100%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="battery horizon">
+            <svg version="1.1" x="0px" y="0px"  viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                <g>
+                	<path  d="M37.965,96.277c0,0,31.768-68.942,31.772-68.952l1.763-3.921c-6.834,1.964-22.103,5.703-22.152,5.855c1.597-4.469,8.469-24.537,8.765-24.537c-6.532,0-13.064,0-19.596,0l-1.988,9.467l-8.362,34.313l22.09-6.014L37.965,96.277z"/>
+                </g>
+            </svg>
+        </div>
+        <div style="height:40px;"></div>
+        <div class="battery">
+            <svg version="1.1" x="0px" y="0px"  viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                <g>
+                	<path  d="M37.965,96.277c0,0,31.768-68.942,31.772-68.952l1.763-3.921c-6.834,1.964-22.103,5.703-22.152,5.855c1.597-4.469,8.469-24.537,8.765-24.537c-6.532,0-13.064,0-19.596,0l-1.988,9.467l-8.362,34.313l22.09-6.014L37.965,96.277z"/>
+                </g>
+            </svg>
+        </div>
+
+        <a href="https://github.com/unclehking/css3Tabs" title="Github下载" style="width:52px;height:50px;border-radius:50%;background:#FF4081;text-align:center;box-shadow:3px 3px 8px rgba(0,0,0,.2);position:fixed;left:16px;bottom:16px;z-index: 998;" >
+			<svg version="1.1" x="0px" y="0px" width="20px" height="50px" fill="#ffffff" viewBox="0 0 22.714 29.606" style="enable-background:new 0 0 22.714 29.606;" xml:space="preserve">
+				<g>
+					<path d="M10.448,24.289c0.225,0.256,0.542,0.423,0.908,0.423c0.003,0,0.007-0.003,0.011-0.003c0.003,0,0.007,0.003,0.011,0.003c0.313,0,0.626-0.119,0.865-0.358L22.356,14.24c0.478-0.477,0.478-1.252,0-1.729c-0.478-0.478-1.251-0.478-1.729,0l-8.048,8.049V1.222C12.579,0.546,12.032,0,11.356,0s-1.223,0.546-1.223,1.222v19.304l-8.047-8.015c-0.479-0.478-1.253-0.47-1.73,0.005c-0.477,0.478-0.474,1.251,0.004,1.729L10.448,24.289z"/>
+					<path d="M21.491,27.161H1.223C0.547,27.161,0,27.705,0,28.383c0,0.673,0.547,1.223,1.223,1.223h20.269c0.676,0,1.223-0.55,1.223-1.223C22.714,27.705,22.167,27.161,21.491,27.161z"/>
+				</g>
+			</svg>
+		</a>
+		<img src="http://unclehking.github.io/css3Tabs/hking.png?01" alt="HKingShareIcon" style="width:0px;height:0px;overflow:hidden;" />
+
+
+    </body>
+</html>
